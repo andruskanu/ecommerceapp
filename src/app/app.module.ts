@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { BodyComponent } from './components/body/body.component';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -14,7 +17,10 @@ import { BodyComponent } from './components/body/body.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    BodyComponent,
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent,
+    PageNotFoundComponent,
    
   ],
   imports: [
