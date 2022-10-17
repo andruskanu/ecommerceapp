@@ -1,3 +1,13 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+body{
+    margin-top:20px;
+    margin-left:40px;
+    margin-right: 40px;
+    background: #a74a4a;
+}
+

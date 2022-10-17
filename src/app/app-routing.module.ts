@@ -10,6 +10,7 @@ const routes: Routes = [
   {path: 'home', component:HomeComponent},
   {path: 'login', component:LoginComponent},  
   {path: 'register', component:RegisterComponent},
+
   //-> add here
   {path: 'page-not-found', component:PageNotFoundComponent},
   {path: '**', redirectTo: '/page-not-found'}
